@@ -16,9 +16,9 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>{import.meta.env.VITE_NOME}</h1>
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+            Conectando em {import.meta.env.VITE_API_URL}
           </p>
         </div>
         <button
